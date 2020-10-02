@@ -1,0 +1,35 @@
+
+
+#menu, .menu-link {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+
+.main {
+  padding: 150px;
+}
+.pure-menu-horizontal {
+  padding: 20px;
+  text-align: right;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 1600px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
+
+.pure-img-responsive {
+  max-width: 19%;
+  padding: 1px;
+  height: auto;
+  text-align: left;
+}
+
+
