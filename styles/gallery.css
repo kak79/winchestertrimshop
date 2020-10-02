@@ -1,4 +1,6 @@
-
+body {
+  font-family: sans-serif;
+}
 
 #menu, .menu-link {
   -webkit-transition: all 0.2s ease-out;
@@ -8,13 +10,16 @@
   transition: all 0.2s ease-out;
 }
 
-
-.main {
-  padding: 150px;
+.header {
+  padding-bottom: 20px;
+  border-bottom: 5px solid rgb(126, 40, 40);
+  padding-right: 150px;
 }
+
 .pure-menu-horizontal {
-  padding: 20px;
+  padding-left: 20px;
   text-align: right;
+  font-size: larger;
 }
 
 .content {
