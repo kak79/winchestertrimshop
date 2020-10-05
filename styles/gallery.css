@@ -24,17 +24,19 @@ body {
 
 .content {
   margin: 0 auto;
-  padding: 0 2em;
-  max-width: 1600px;
-  margin-bottom: 50px;
-  line-height: 1.6em;
+  max-width: 12in;
 }
 
-.pure-img-responsive {
-  max-width: 19%;
-  padding: 1px;
+.content .pure-img-responsive {
+  max-width: 100%;
+  padding-top: 15px;
   height: auto;
   text-align: left;
+}
+
+.content .image-txt {
+  text-align: left;
+  max-width: 100%;
 }
 
 
