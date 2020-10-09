@@ -12,7 +12,7 @@ body {
 
 .header {
   padding-bottom: 20px;
-  border-bottom: 5px solid rgb(126, 40, 40);
+  border-bottom: 5px solid black;
   padding-right: 150px;
 }
 .pure-image-responsive {
