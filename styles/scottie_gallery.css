@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+#menu, .menu-link {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+  padding-right: 150px;
+}
+.pure-image-responsive {
+  max-width: 350px;
+}
+.pure-menu-horizontal {
+  padding-left: 20px;
+  text-align: right;
+  font-size: larger;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 12in;
+}
+
+.content .pure-img-responsive {
+  max-width: 100%;
+  padding-top: 15px;
+  height: auto;
+  text-align: left;
+}
+
+.content .image-txt {
+  text-align: left;
+  max-width: 100%;
+}
+
+
