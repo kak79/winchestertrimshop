@@ -10,6 +10,8 @@ body {
   transition: all 0.2s ease-out;
 }
 
+/* this is where the header content is styled */
+
 .header {
   padding-bottom: 20px;
   border-bottom: 5px solid black;
@@ -24,7 +26,10 @@ body {
   font-size: larger;
 }
 
+/* This is where the body is styled */
+
 .content {
+  text-align: center;
   margin: 0 auto;
   padding: 0 2em;
   max-width: 1600px;
@@ -34,5 +39,8 @@ body {
 
 .pure-img-responsive {
   max-width: 100%;
-  
+  text-align: center;
 }
+
+
+
