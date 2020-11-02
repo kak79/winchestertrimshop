@@ -24,10 +24,22 @@ body {
 }
 .header .header-menu {
   display: inline-block;
-  text-align: right;
-  width: 100%;
+  float: right;
+  width: 70%;
   font-size: 
   x-large;
+}
+.header-menu ul {
+  margin: 90px auto;
+  float: right;
+}
+.header-menu ul li{
+  display: inline;
+
+}
+.header-menu ul li a:hover{
+  color:red;
+
 }
 .each-header-menu-item {
   padding: 20px;
