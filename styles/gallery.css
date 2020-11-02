@@ -16,14 +16,21 @@ body {
   padding-bottom: 20px;
   border-bottom: 5px solid black;
   padding-right: 150px;
+  display: block;
 }
-.pure-image-responsive {
+.header .imgcontent {
+  display: inline;
   max-width: 350px;
 }
-.pure-menu-horizontal {
-  padding-left: 20px;
+.header .header-menu {
+  display: inline-block;
   text-align: right;
-  font-size: larger;
+  width: 100%;
+  font-size: 
+  x-large;
+}
+.each-header-menu-item {
+  padding: 20px;
 }
 
 /* This is where the body is styled */
