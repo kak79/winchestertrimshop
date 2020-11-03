@@ -94,7 +94,63 @@ body {
 /* for tablets */
 
 @media screen and (max-width: 992px) {
-  .imgcontent {
-    
+  .header {
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+    padding-right: 150px;
+  }
+  .header .imgcontent {
+    max-width: 30%;
+  }
+  .header .header-menu {
+    display: inline;
+    text-align: right;
+    width: 70%;
+    font-size: larger;
+  }
+  .header-menu ul {
+    margin: 90px auto;
+    float: right;
+  }
+  .header-menu ul li{
+    display: inline;
+  }
+  .header-menu ul li a:hover{
+    color: darkcyan;
+  }
+  .each-header-menu-item {
+    padding: 5px;
+  }
+}
+
+/* for phones */
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+    padding-right: 150px;
+  }
+  .header .imgcontent {
+    max-width: 30%;
+  }
+  .header .header-menu {
+    display: inline;
+    text-align: right;
+    width: 70%;
+    font-size: medium;
+  }
+  .header-menu ul {
+    margin: 90px auto;
+    float: right;
+  }
+  .header-menu ul li{
+    display: inline;
+  }
+  .header-menu ul li a:hover{
+    color: darkcyan;
+  }
+  .each-header-menu-item {
+    padding: 5px;
   }
 }
