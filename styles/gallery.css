@@ -65,6 +65,7 @@ body {
 
 .item {
   display: block;
+  padding: 20px;
 }
 .item .imgcontent {
   display: inline;
