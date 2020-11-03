@@ -89,3 +89,12 @@ body {
 .each-footer-menu-item {
   padding: 20px;
 }
+
+
+/* for tablets */
+
+@media screen and (max-width: 992px) {
+  .imgcontent {
+    
+  }
+}
