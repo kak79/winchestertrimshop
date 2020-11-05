@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Montez', cursive;
 }
 
 #menu, .menu-link {
@@ -55,6 +55,32 @@ body {
   line-height: 1.6em;
 }
 
+.padding {
+  padding-top: 20px;
+}
+
+/* headline */
+.hdln_bg {
+  background-color: blue;
+  display: block;
+  min-height: 5in;
+  
+}
+
+.hdln_bg .headline {
+  color: white;
+  text-align: center;
+  padding-top: 1.25in;
+}
+
+.hdln_bg .headline .subhead {
+  color: white;
+  text-align: center;
+  padding-top: .25in;
+}
+
+
+/* carousel */
 .pure-img-responsive {
   max-width: 100%;
   
